@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bluesky.css">
+	<title>Clean Air</title>
+	<script src="game.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Clear Blue</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+<div class="split left">
+  <div class="centered">
+    <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/q3V3Xe3-796x531.jpg"  >
+
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+	<h1></h1>
+    <h1 id= "health"><span class="badge badge-primary">Health</span> 100</h1>
+    <!-- health here -->
+    <img src="bird_start.png" id = "birdpic" width="350" height="350">
+    <!-- event log -->
+    <p id="log"></p>
+    <p><button onclick = Hunt()>Hunt</button> Restore health</p>
+    <p><button onclick = Travel()>Travel</button>Migrate to your destination</p>
+  </div>
+</div>
+
+ 	
+
+
+</body>
+</html>
